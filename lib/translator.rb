@@ -22,10 +22,10 @@ def get_japanese_emoticon(yaml_file, emoticon)
 library = YAML.load_file(yaml_file)
 emo = load_library(yaml_file)
 
-  emo.each do |meaning, value|
-    if value[:english] == emoticon
+  emo.each_value do |value|
+    if value.has_value?(emoticon)
      return value[:japanese]
-  end
+    end
   end 
    "Sorry, that emoticon was not found"
 end
