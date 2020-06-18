@@ -26,8 +26,8 @@ result = library.each do |k, v|
   end 
 end     
 result
-binding.pry 
-puts " "
+#binding.pry 
+#puts " "
 end 
 
 
