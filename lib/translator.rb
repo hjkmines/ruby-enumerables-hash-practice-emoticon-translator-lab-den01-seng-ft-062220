@@ -17,7 +17,7 @@ end
 
 def get_english_meaning(yaml_file, jap_emoticon)
   
-  load_library(yaml_file)
+library = load_library(yaml_file)
   
   
   
