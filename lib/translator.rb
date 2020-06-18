@@ -21,14 +21,11 @@ library = load_library(yaml_file)
 library.each do |k, v|
   if v[:japanese] == jap_emoticon
     output = v[:english] 
-  else 
-    "Not availalbe"
   end
   binding.pry 
 end     
-result
-#binding.pry 
-#puts " "
+
+return "Not available"
 end 
 
 
