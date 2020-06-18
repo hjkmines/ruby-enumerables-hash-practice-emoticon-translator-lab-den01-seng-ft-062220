@@ -23,7 +23,8 @@ library.each do |k, v|
     output = v[:english] 
   else 
     "Not availalbe"
-  end 
+  end
+  binding.pry 
 end     
 result
 #binding.pry 
