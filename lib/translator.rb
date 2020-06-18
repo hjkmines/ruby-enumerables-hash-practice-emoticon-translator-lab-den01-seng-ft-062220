@@ -1,4 +1,35 @@
 # require modules here
+
+require 'pry'
+require 'yaml'
+
+def load_library(yaml_file)
+
+library = YAML.load_file(yaml_file)
+
+end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 require "pry"
 require "yaml"
 
