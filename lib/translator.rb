@@ -27,7 +27,7 @@ result = library.each do |meaning, emoticons|
 end     
 
 result 
-
+binding.pry 
 puts " "
 end 
 
