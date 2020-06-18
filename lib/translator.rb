@@ -14,8 +14,6 @@ library.each do |meaning, emoticons|
 end 
 
 new_library
-binding.pry 
-puts ""
 end 
 
 
