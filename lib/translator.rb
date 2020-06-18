@@ -18,7 +18,7 @@ end
 def get_english_meaning(yaml_file, jap_emoticon)
   
 library = load_library(yaml_file)
-  
+  binding.pry 
 result = library.each_with_value do |k, v|
   if v[:japanese] == jap_emoticon
     v[:english] 
