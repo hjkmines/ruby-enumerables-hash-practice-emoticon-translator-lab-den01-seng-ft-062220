@@ -21,7 +21,7 @@ library = load_library(yaml_file)
 
 library.each do |k, v|
   if v[:japanese] == jap_emoticon
-    return v[:english] 
+    return k
   end
 end     
 
