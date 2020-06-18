@@ -25,11 +25,23 @@ library.each do |k, v|
   end
 end     
 
-return "Not available"
+return "Sorry, that emoticon was not found"
 
 end 
 
+def get_japanese_meaning(yaml_file, eng_emoticon)
+  
+library = load_library(yaml_file)
 
+library.each do |k, v|
+  if v[:english] == eng_emoticon
+    return k
+  end
+end     
+
+return "Sorry, that emoticon was not found"
+
+end 
 
 
 
