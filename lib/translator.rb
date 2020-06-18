@@ -29,7 +29,7 @@ return "Sorry, that emoticon was not found"
 
 end 
 
-def get_japanese_meaning(yaml_file, eng_emoticon)
+def get_japanese_emoticon(yaml_file, eng_emoticon)
   
 library = load_library(yaml_file)
 
