@@ -15,7 +15,13 @@ end
 new_library
 end 
 
-
+def get_english_meaning(yaml_file, jap_emoticon)
+  
+  load_library(yaml_file)
+  
+  
+  
+end 
 
 
 
